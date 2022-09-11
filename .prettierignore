@@ -1,0 +1,15 @@
+# Ignore artifacts
+build
+dist
+
+# Ignore unuseful folders
+node_modules
+.history
+.husky
+.vscode
+coverage
+
+# Ignore config files
+tsconfig.json
+vite.config.ts
+jest.config.ts
