@@ -1,0 +1,4 @@
+{
+  "./**/*.{ts, tsx, js, jsx}": "pnpm run lint:scripts && pnpm run format:scripts",
+  "./**/*.{css}": "pnpm run format:styles"
+}
