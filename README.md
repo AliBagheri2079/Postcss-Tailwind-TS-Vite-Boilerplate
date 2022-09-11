@@ -6,7 +6,7 @@ A starter frontend boilerplate built with:
 
 - [Vite](https://vitejs.dev/)
 - [Postcss](https://postcss.org/)
-- [Tailwind](hhttps://tailwindcss.com/)
+- [Tailwind](https://tailwindcss.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
