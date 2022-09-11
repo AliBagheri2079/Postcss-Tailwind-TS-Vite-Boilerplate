@@ -17,7 +17,7 @@ This also uses [husky](https://github.com/typicode/husky) and [lint-staged](http
 ## Features
 
 - Support for both TypeScript and JavaScript as needed.
-- Use popular tailwind plugin; eg: [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin), [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms) and [@tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
+- Use popular tailwind plugin; eg: [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin), [@tailwindcss/forms](https://github.com/tailwindlabs/tailwindcss-forms), [@tailwindcss/line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp), [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - Add many usefull postcss plugin; eg: [cssnano](https://cssnano.co/), [autoprefixer](https://github.com/postcss/autoprefixer), [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env), [postcss-extend](https://github.com/travco/postcss-extend), [postcss-mixins](https://github.com/postcss/postcss-mixins), [postcss-import](https://github.com/postcss/postcss-import), [postcss-simple-vars](https://github.com/postcss/postcss-simple-vars)
 - Minification of TypeScript/JavaScript and CSS processed files.
 - May be extended to be used with [React](https://reactjs.org/), [Vue.js](https://vuejs.org/), or [Angular](https://angular.io/).
@@ -44,9 +44,6 @@ public
 ├── ...
 └── vite.svg
 ```
-
-- src
-  - The entry typescript file is [main.ts](src/main.ts).
 
 ## Configuration
 
@@ -81,6 +78,24 @@ Run:
 ```
 
 Will output all build files into the `dist` folder.
+
+## Formating
+
+### Scripts (Prettier)
+
+Run:
+
+```sh
+  pnpm run format:scripts
+```
+
+### All
+
+Run:
+
+```sh
+  pnpm run format
+```
 
 ## Linting
 
