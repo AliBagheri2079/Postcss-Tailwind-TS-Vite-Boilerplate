@@ -31,7 +31,6 @@ This also uses [husky](https://github.com/typicode/husky) and [lint-staged](http
 
 ```none
 src
-├── @types
 ├── assets
 ├── components
 ├── global
