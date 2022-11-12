@@ -27,7 +27,7 @@ This also uses [husky](https://github.com/typicode/husky) and [lint-staged](http
 - [NodeJS](https://nodejs.org/en/)
 - [PNPM](https://pnpm.io/)
 
-## Folder structure
+## Folder structures
 
 ```none
 src
